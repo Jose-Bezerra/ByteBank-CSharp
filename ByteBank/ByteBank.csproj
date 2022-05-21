@@ -9,8 +9,10 @@
 
   <ItemGroup>
     <None Remove="Funcionarios\" />
+    <None Remove="SistemaInterno\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Funcionarios\" />
+    <Folder Include="SistemaInterno\" />
   </ItemGroup>
 </Project>
