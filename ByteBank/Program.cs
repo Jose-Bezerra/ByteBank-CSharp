@@ -26,6 +26,10 @@ namespace ByteBank
             camila.Nome = "Camila";
             camila.Senha = "abc";
 
+            ParceiroComercial parceiro = new ParceiroComercial();
+            parceiro.Senha = "123456";
+
+            sistemaInterno.Logar(parceiro, "123456");
             sistemaInterno.Logar(roberta, "234");
             sistemaInterno.Logar(camila, "abc");
 
@@ -47,6 +51,8 @@ namespace ByteBank
 
             GerenteDeConta camila = new GerenteDeConta("326.985.628-89");
             camila.Nome = "Camila";
+
+           
 
             gerenciadorBonificacao.Registrar(pedro);
             gerenciadorBonificacao.Registrar(roberta);

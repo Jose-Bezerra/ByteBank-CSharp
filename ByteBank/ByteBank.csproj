@@ -13,6 +13,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Funcionarios\" />
-    <Folder Include="SistemaInterno\" />
+    <Folder Include="Sistemas\" />
   </ItemGroup>
 </Project>
